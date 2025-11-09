@@ -1,6 +1,6 @@
-'From Cuis7.5 [latest update: #7689] on 9 November 2025 at 3:19:15 pm'!
+'From Cuis7.5 [latest update: #7689] on 9 November 2025 at 3:28:43 pm'!
 'Description Please enter a description for this package '!
-!provides: 'Cuis-System-Hashing' 1 3!
+!provides: 'Cuis-System-Hashing' 1 4!
 SystemOrganization addCategory: #'Cuis-System-Hashing'!
 
 
@@ -352,10 +352,10 @@ blockSize
 hashSize
 	^ 16! !
 
-!MD5 class methodsFor: 'as yet unclassified' stamp: 'J.K. 11/9/2025 14:55:49'!
+!MD5 class methodsFor: 'as yet unclassified' stamp: 'J.K. 11/9/2025 15:28:35'!
 isPluginAvailable
 
-	"<primitive: 'primitivePluginAvailable' module: 'MD5Plugin'>"
+	<primitive: 'primitivePluginAvailable' module: 'MD5Plugin'>
 	^false! !
 
 !MD5 class methodsFor: 'as yet unclassified' stamp: 'J.K. 11/9/2025 14:51:43'!
